@@ -6,40 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <a href="#" class="header-logo"><img src="img/Vector.svg" alt="Logo"></a>
-            <ul class="header-links">
-                <li><a href="#"></a>Features</li>
-                <li><a href="#"></a>Partners</li>
-                <li><a href="#"></a>Stories</li>
-            </ul>
-            <div class="header-button">
-                <a href="#" class="btn">Download for free</a>
-            </div>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="header-logo"><img src="img/Vector.svg" alt="Logo"></a>
+                <input id="menuCheckbox" type="checkbox">
+                <ul class="header-links">
+                    <li><a href="#"></a>Features</li>
+                    <li><a href="#"></a>Partners</li>
+                    <li><a href="#"></a>Stories</li>
+                </ul>
+                <label for="menuCheckbox">
+                    <span id="menu" class="material-symbols-outlined">menu</span>
+                    <span id="close" class="material-symbols-outlined">close</span>
+                </label>
+                <div class="header-button">
+                    <a href="#" class="btn">Download for free</a>
+                </div>
 
-        </header>
-        <div class="main">
-            <h1 class="main-title">The Power of Simplicity</h1>
-            <p class="main-desc">Instead of spending time searching for the right app, our AI will bring the right app
-                to you.</p>
-            <div> <a href="#" class="main-btn">Learn</a></div>
-            <div class="loaders">
-                <img src="img/Ellipse 1.svg" alt="Circle">
-                <img src="img/Ellipse 1.svg" alt="Circle">
-                <img src="img/Ellipse 3.svg" alt="Circle Half">
-                <img src="img/Ellipse 1.svg" alt="Circle">
-                <img src="img/Ellipse 1.svg" alt="Circle">
+            </header>
+            <div class="main">
+                <h1 class="main-title">The Power of Simplicity</h1>
+                <p class="main-desc">Instead of spending time searching for the right app, our AI will bring the right
+                    app
+                    to you.</p>
+                <div> <a href="#" class="main-btn">Learn</a></div>
+                <div class="loaders">
+                    <img src="img/Circle.svg" alt="Circle">
+                    <img src="img/Circle.svg" alt="Circle">
+                    <img src="img/Circle Half.svg" alt="Circle Half">
+                    <img src="img/Circle.svg" alt="Circle">
+                    <img src="img/Circle.svg" alt="Circle">
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
